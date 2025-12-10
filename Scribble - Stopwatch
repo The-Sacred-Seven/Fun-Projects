@@ -1,0 +1,17 @@
+Action Listener is needed 
+In Jave, ActionListener is an interface within java.awt.event package, fundamental for handling user interactions in GUI applications, particularly in AWT and Swing
+Purpose: An ActionListener is designed to receive notifications when a specific "action" occurs on a component. Common examples of such actions are: 1) Clicking a JButton,
+2) Selecting a menu item from a JMenu, 3) Pressing Enter in a JTextField
+AWT- Abstract Window ToolKit is a platform-dependent API used to develop GUI or window-based applications in Java
+Swing - GUI toolkit part of Java Foundation Classes(JFC). It provides a rich set of components for building desktop applications with a modern look and feel
+importing awt - java.awt.*;
+importing swing javax.swing.*;
+Javax- prefix used for Java standard extension packages, which provide additional functionality beyond the core language. These extensions cover features like
+javax.servlet for web applications, javax.ejb for enterprise beans
+javax.swing for GUI development
+javax.sql for DB connectivity
+javax namespace is now transitioning to jakarta namespace but it was historically a key part of Java's extended API
+JFrame - Top level container in the Swing GUI toolkit. It represents a window on the screen and serves as the foundation of creating GUI-based Java applications.
+Essentially, it's the main window where other GUI components like buttons, labels, text fields and panels are placed to build an interactive application.
+JLabel - Swing GUI component, used for displaying a short string of text, an image or combination of both. It serves primarily as a display element and is considered a passive control, meaning it does not generate events upon user interactions like buttons or checkboxes do.
+setBounds - method in Java is used to manually set the position and size of a GUI within its parent container. This method is part of the java.awt.Component class.
